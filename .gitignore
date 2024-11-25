@@ -1,0 +1,44 @@
+# Ignore the .vscode folder (VS Code settings)
+.vscode/
+
+# Ignore build directories and compiled files
+build/
+bin/
+obj/
+*.o
+*.a
+*.out
+*.exe
+*.dSYM/
+
+# Ignore CMake files (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+
+# Ignore backup and temporary files
+*.swp
+*~
+*.bak
+*.tmp
+
+# Ignore IDE and editor specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files (if applicable)
+*.pyc
+*.pyo
+
+# Ignore any other temporary files that shouldn't be in Git
+*.user
+*.userprefs
