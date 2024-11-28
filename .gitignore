@@ -42,3 +42,6 @@ Thumbs.db
 # Ignore any other temporary files that shouldn't be in Git
 *.user
 *.userprefs
+
+# Uncomment the line below if you want to track the Copilot-Code directory
+# Copilot-Code/
